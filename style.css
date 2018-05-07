@@ -1,0 +1,85 @@
+/**
+ * Stylesheet for Web Design Skeleton
+ **/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+header {
+    background: #ebebeb;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#nav {
+    background: #ebebeb;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+aside {
+    background: #ebebeb;
+    float: right;
+    text-align: center;
+    width: 35%;
+    height: 200px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+section {
+    background: #ebebeb;
+    width: 495px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px; 
+    border: 20px solid #ebebeb;
+   
+}
+
+#article {
+    position: absolute;
+    color: #ebebeb;
+    background: #777;
+    width: 450px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background: #ebebeb;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#h1 {
+    color: #777;
+    background: #ebebeb;
+    width: 400px;
+    padding: 20px;
+
+}
+
+p {
+    color: #777;
+    background: #ebebeb;
+    width: 400px;
+    padding: 20px;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
